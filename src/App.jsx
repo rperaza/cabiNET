@@ -1,17 +1,9 @@
 import { useState } from 'react'
-
+import Dashboard from '/src/components/dashboard.jsx';
 import './App.css'
 
 function App() {
-  return (
-    <>
-      <div className="main">
-        <div className="header">
-          <img src="/logo(2).png" alt="logo" />
-        </div>
-      </div>
-    </>
-  );
+  return <Dashboard />;
 };
 
 export default App
